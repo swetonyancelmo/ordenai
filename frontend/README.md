@@ -1,6 +1,6 @@
-# Ordenai — Frontend
+# OrdenAI — Frontend
 
-Painel web do Ordenai (Next.js 16 + Tailwind v4 + shadcn/ui, base UI).
+Painel web do OrdenAI (Next.js 16 + Tailwind v4 + shadcn/ui, base UI).
 Consome a API NestJS em `../backend` e autentica via Supabase Auth (JWT ES256).
 
 ## Rodando localmente

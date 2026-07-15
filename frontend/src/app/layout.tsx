@@ -19,9 +19,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Ordenai — seu dia organizado",
+  title: "OrdenAI — seu dia organizado",
   description:
-    "Organize finanças e tarefas no ritmo de uma conversa. Painel web do Ordenai.",
+    "Organize finanças e tarefas no ritmo de uma conversa. Painel web do OrdenAI.",
 };
 
 export default function RootLayout({

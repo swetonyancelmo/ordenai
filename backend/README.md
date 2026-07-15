@@ -1,4 +1,4 @@
-# Ordenai — Backend
+# OrdenAI — Backend
 
 Organizador de vida pessoal (financeiro + tarefas + agenda) via WhatsApp e painel web.
 Backend em **NestJS + Prisma + Postgres**.

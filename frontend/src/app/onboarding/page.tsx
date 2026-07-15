@@ -67,7 +67,7 @@ export default function OnboardingPage() {
         name: name.trim() || undefined,
         email: session?.user.email ?? undefined,
       });
-      toast.success("Tudo pronto! Bem-vindo ao Ordenai.");
+      toast.success("Tudo pronto! Bem-vindo ao OrdenAI.");
       router.replace("/dashboard");
     } catch (err) {
       const message =
@@ -90,7 +90,7 @@ export default function OnboardingPage() {
         <div className="mb-8 flex flex-col items-center gap-3 text-center">
           <Logo markClassName="size-10" className="gap-2.5 [&_span]:text-2xl" />
           <p className="text-balance text-muted-foreground">
-            Falta um passo: qual o WhatsApp que vai conversar com o Ordenai?
+            Falta um passo: qual o WhatsApp que vai conversar com o OrdenAI?
           </p>
         </div>
 

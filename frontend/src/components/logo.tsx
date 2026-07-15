@@ -1,13 +1,13 @@
 import { cn } from "@/lib/utils";
 
-/** Marca do Ordenai: squircle Orquídea com um "check" — o caderno organizado. */
+/** Marca do OrdenAI: squircle Orquídea com um "check" — o caderno organizado. */
 export function LogoMark({ className }: { className?: string }) {
   return (
     <svg
       viewBox="0 0 32 32"
       className={cn("size-8", className)}
       role="img"
-      aria-label="Ordenai"
+      aria-label="OrdenAI"
     >
       <rect width="32" height="32" rx="10" fill="var(--primary)" />
       <path
@@ -33,7 +33,7 @@ export function Logo({
     <span className={cn("flex items-center gap-2", className)}>
       <LogoMark className={markClassName} />
       <span className="font-heading text-xl font-semibold tracking-tight">
-        Ordenai
+        OrdenAI
       </span>
     </span>
   );

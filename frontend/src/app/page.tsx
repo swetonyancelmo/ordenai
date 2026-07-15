@@ -17,9 +17,9 @@ import { Logo } from "@/components/logo";
 import { Button } from "@/components/ui/button";
 
 export const metadata: Metadata = {
-  title: "Ordenai — organize sua vida pelo WhatsApp",
+  title: "OrdenAI — organize sua vida pelo WhatsApp",
   description:
-    "Registre gastos, receitas e tarefas mandando uma mensagem no WhatsApp. A IA do Ordenai entende, organiza e te devolve tudo pronto — com painel web para relatórios.",
+    "Registre gastos, receitas e tarefas mandando uma mensagem no WhatsApp. A IA do OrdenAI entende, organiza e te devolve tudo pronto — com painel web para relatórios.",
 };
 
 export default function LandingPage() {
@@ -40,7 +40,7 @@ export default function LandingPage() {
             </h1>
             <p className="mt-5 max-w-md text-lg text-muted-foreground">
               Registre gastos, receitas e tarefas mandando uma mensagem. O
-              Ordenai entende, organiza e te devolve tudo pronto — com um painel
+              OrdenAI entende, organiza e te devolve tudo pronto — com um painel
               web para enxergar o mês inteiro.
             </p>
             <div className="mt-8 flex flex-wrap items-center gap-3">
@@ -95,7 +95,7 @@ export default function LandingPage() {
               <Step
                 n={3}
                 title="Confere e pronto"
-                text="O Ordenai devolve o que entendeu para você confirmar. Errou? É só corrigir por mensagem."
+                text="O OrdenAI devolve o que entendeu para você confirmar. Errou? É só corrigir por mensagem."
               />
             </div>
           </div>
@@ -151,7 +151,7 @@ export default function LandingPage() {
             </h2>
             <p className="max-w-md text-primary-foreground/80">
               Crie sua conta em segundos e mande a primeira mensagem. O resto o
-              Ordenai faz por você.
+              OrdenAI faz por você.
             </p>
             <Button
               size="lg"
@@ -170,7 +170,7 @@ export default function LandingPage() {
         <div className="mx-auto flex w-full max-w-6xl flex-col items-center justify-between gap-4 px-4 text-sm text-muted-foreground md:flex-row md:px-8">
           <Logo className="[&_span]:text-base" markClassName="size-6" />
           <p>Organização pessoal no ritmo de uma conversa.</p>
-          <p>© {new Date().getFullYear()} Ordenai</p>
+          <p>© {new Date().getFullYear()} OrdenAI</p>
         </div>
       </footer>
     </div>

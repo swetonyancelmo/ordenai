@@ -1,7 +1,7 @@
 import { CategoryTab } from "@/components/category-tab";
 
 /**
- * Demonstração estática do fluxo-assinatura do Ordenai: uma mensagem em
+ * Demonstração estática do fluxo-assinatura do OrdenAI: uma mensagem em
  * linguagem natural vira despesa + tarefa estruturadas. Não é interativo —
  * é a "vitrine" do hero.
  */
@@ -14,7 +14,7 @@ export function WhatsappDemo() {
           <span className="size-2.5 rounded-full bg-success" />
         </span>
         <div>
-          <p className="text-sm font-semibold leading-tight">Ordenai</p>
+          <p className="text-sm font-semibold leading-tight">OrdenAI</p>
           <p className="text-xs text-muted-foreground">no seu WhatsApp</p>
         </div>
       </div>
@@ -27,7 +27,7 @@ export function WhatsappDemo() {
         </p>
       </div>
 
-      {/* Resposta do Ordenai com dados extraídos */}
+      {/* Resposta do OrdenAI com dados extraídos */}
       <div className="flex justify-start">
         <div className="max-w-[92%] rounded-2xl rounded-bl-sm bg-muted px-3.5 py-3">
           <p className="mb-2.5 text-sm">Anotado! Confere pra mim ✅</p>

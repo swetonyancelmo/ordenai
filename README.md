@@ -1,4 +1,4 @@
-# Ordenai
+# OrdenAI
 
 Organizador de vida pessoal (financeiro + tarefas + agenda) via WhatsApp e painel web.
 

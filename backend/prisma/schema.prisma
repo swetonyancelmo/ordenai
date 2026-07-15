@@ -1,4 +1,4 @@
-// Ordenai — schema do banco (Fase 1)
+// OrdenAI — schema do banco (Fase 1)
 // Modelo de dados conforme CLAUDE.md > "Modelo de dados".
 // Valores monetários usam Decimal(12,2) para precisão financeira.
 

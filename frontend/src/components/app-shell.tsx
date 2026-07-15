@@ -183,7 +183,7 @@ export function AppShell({ children }: { children: ReactNode }) {
         <Link href="/dashboard" className="flex items-center gap-2 px-2 py-1">
           <LogoMark />
           <span className="font-heading text-lg font-semibold tracking-tight">
-            Ordenai
+            OrdenAI
           </span>
         </Link>
         <div className="flex-1">
@@ -197,7 +197,7 @@ export function AppShell({ children }: { children: ReactNode }) {
         <Link href="/dashboard" className="flex items-center gap-2">
           <LogoMark className="size-7" />
           <span className="font-heading text-base font-semibold tracking-tight">
-            Ordenai
+            OrdenAI
           </span>
         </Link>
         <div className="flex items-center gap-1">
